@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="202FF75B-ED1E-5EFB-1CD7-400FF6F26430" name="SALE">
+<sourceConnName>java</sourceConnName>
+<sourceObjSchema>JAVA</sourceObjSchema>
+<sourceObjName>SALE</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2023-07-07 01:45:18 UTC</createdTime>
+<generatorID>사용자 생성</generatorID>
+<ownerDesignName>PRODUCTS</ownerDesignName>
+<schemaObject>57DBD55F-3DE6-0FFE-8B8C-1593A6B0CEA0</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SCODE" id="9AF4A308-66A4-D621-440F-0237734A05DC">
+<sourceConnName>java</sourceConnName>
+<sourceObjSchema>SALE</sourceObjSchema>
+<sourceObjName>SCODE</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2023-07-07 01:45:18 UTC</createdTime>
+<generatorID>사용자 생성</generatorID>
+<ownerDesignName>PRODUCTS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PCODE" id="E9686EA6-0CA0-1DD2-336E-6EA45540DDE1">
+<sourceConnName>java</sourceConnName>
+<sourceObjSchema>SALE</sourceObjSchema>
+<sourceObjName>PCODE</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2023-07-07 01:45:18 UTC</createdTime>
+<generatorID>사용자 생성</generatorID>
+<ownerDesignName>PRODUCTS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<delegate>1CF760FC-0804-3AA9-8476-DDC9E1969F4D</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="174B46A6-110A-FD40-6245-CBAFC7AF24CA" referredColumn="1CF760FC-0804-3AA9-8476-DDC9E1969F4D"/>
+</associations>
+</Column>
+<Column name="QNT" id="1F11EE7C-FC2F-0430-D9B0-C459E26DAEDC">
+<sourceConnName>java</sourceConnName>
+<sourceObjSchema>SALE</sourceObjSchema>
+<sourceObjName>QNT</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2023-07-07 01:45:18 UTC</createdTime>
+<generatorID>사용자 생성</generatorID>
+<ownerDesignName>PRODUCTS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<defaultValue>1</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SPRICE" id="7494E189-F50F-D24A-5EBC-FE92237A9711">
+<sourceConnName>java</sourceConnName>
+<sourceObjSchema>SALE</sourceObjSchema>
+<sourceObjName>SPRICE</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2023-07-07 01:45:18 UTC</createdTime>
+<generatorID>사용자 생성</generatorID>
+<ownerDesignName>PRODUCTS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<defaultValue>0</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SDATE" id="2379CF72-1B6D-F188-0ACA-6BCED3C1D6DD">
+<sourceConnName>java</sourceConnName>
+<sourceObjSchema>SALE</sourceObjSchema>
+<sourceObjName>SDATE</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2023-07-07 01:45:18 UTC</createdTime>
+<generatorID>사용자 생성</generatorID>
+<ownerDesignName>PRODUCTS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<defaultValue>SYSDATE</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="70A817C8-F03B-9063-8206-77D2F3A260CA" name="SALE_PK">
+<sourceConnName>java</sourceConnName>
+<sourceObjSchema>JAVA</sourceObjSchema>
+<sourceObjName>SYS_C007018</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2023-07-07 01:45:18 UTC</createdTime>
+<generatorID>사용자 생성</generatorID>
+<ownerDesignName>PRODUCTS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<schemaObject>57DBD55F-3DE6-0FFE-8B8C-1593A6B0CEA0</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9AF4A308-66A4-D621-440F-0237734A05DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E595402B-3054-D1A4-3D03-1A37DD246EBF" name="SYS_C007019">
+<createdBy>user</createdBy>
+<createdTime>2023-07-07 01:45:18 UTC</createdTime>
+<generatorID>사용자 생성</generatorID>
+<ownerDesignName>PRODUCTS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E9686EA6-0CA0-1DD2-336E-6EA45540DDE1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
